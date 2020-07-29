@@ -54,6 +54,13 @@
 		text-decoration: none;
 		background-color: transparent;
 	}
+	&:hover,:active, :focus {
+		//background-color:$vela-green-600;
+		border-color:$vela-green-600;
+		text-decoration: none;
+		background-color: $gray-100;
+		border-radius: 50px;
+	}
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   border-radius: 50px;

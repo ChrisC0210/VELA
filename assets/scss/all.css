@@ -10933,6 +10933,13 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: transparent;
 }
 
+.nav-item:hover, .nav-item :active, .nav-item :focus {
+  border-color: #0F525C;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border-radius: 50px;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   border-radius: 50px;
   padding: 10px 30px;
@@ -11011,6 +11018,14 @@ a.text-dark:focus, a.text-dark:hover {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.contact-box {
+  width: 400px;
+}
+
+.contact-box iframe {
+  width: 100%;
 }
 
 .img-big {
