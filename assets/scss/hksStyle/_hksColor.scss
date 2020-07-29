@@ -17,6 +17,13 @@ $black:    #141414 !default;
 $hks-blue: #4B8ED1 !default;
 $hks-blue-600: #455FA5 !default;
 $hks-gray: #767676 !default;
+
+//vela
+$vela-green-400: #6C838B !default;
+$vela-green: #1E646E !default;
+$vela-green-600: #0F525C !default;
+$vela-blue: #023459 !default;
+
 //header hover color
 $ap-pink-200: #F4E2E3 !default;
 $ap-pink-600: #FBAFB8 !default;
@@ -45,6 +52,14 @@ $ap-yellow-600: #fee100 !default;
 //hks
 .hks-blue{color: $hks-blue;}
 .hks-blue-600{color: $hks-blue-600;}
+//
+//vela
+.vela-green-400{color: $vela-green-400;}
+.vela-green{color: $vela-green;}
+.vela-green-600{color: $vela-green-600;}
+.vela-blue{color: $vela-blue;}
+
+
 //
 .ap-pink-200  {color:$ap-pink-200;}
 .ap-pink-600  {color:$ap-pink-600;}

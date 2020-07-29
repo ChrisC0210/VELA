@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 :root {
   --blue:#007bff;
   --indigo:#6610f2;
@@ -10212,6 +10212,22 @@ a.text-dark:focus, a.text-dark:hover {
   color: #455FA5;
 }
 
+.vela-green-400 {
+  color: #6C838B;
+}
+
+.vela-green {
+  color: #1E646E;
+}
+
+.vela-green-600 {
+  color: #0F525C;
+}
+
+.vela-blue {
+  color: #023459;
+}
+
 .ap-pink-200 {
   color: #F4E2E3;
 }
@@ -10311,7 +10327,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10366,7 +10382,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10421,7 +10437,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10488,7 +10504,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10557,64 +10573,57 @@ a.text-dark:focus, a.text-dark:hover {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.text-y-1-4-1 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-1-4-1 {
+  font-family: 'PT Mono', monospace;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
-  .text-y-1-4-1 {
+  .text-m-1-4-1 {
     font-size: 16px;
   }
 }
 
-.text-y-2-4-2 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-2-4-2 {
+  font-family: 'PT Mono', monospace;
   font-size: 18px;
   line-height: 27px;
 }
 
-.text-y-3-4-3 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-3-4-3 {
+  font-family: 'PT Mono', monospace;
   font-size: 20px;
   line-height: 30px;
 }
 
-.text-y-4-4-4 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-4-4-4 {
+  font-family: 'PT Mono', monospace;
   font-size: 24px;
   line-height: 36px;
 }
 
 @media screen and (max-width: 500px) {
-  .text-y-4-4-4 {
+  .text-m-4-4-4 {
     font-size: 18px;
     line-height: 27px;
   }
 }
 
-.text-y-5-4-5 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-5-4-5 {
+  font-family: 'PT Mono', monospace;
   font-size: 30px;
   line-height: 48px;
 }
 
-.text-y-6-4-6 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-6-4-6 {
+  font-family: 'PT Mono', monospace;
   font-size: 40px;
   line-height: 60px;
 }
 
-.text-y-7-4-7 {
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-7-4-7 {
+  font-family: 'PT Mono', monospace;
   font-size: 48px;
   line-height: 84px;
 }
@@ -10623,7 +10632,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: Gotham, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10685,7 +10694,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: Gotham, sans-serif;
   font-weight: lighter;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -10782,7 +10791,7 @@ a.text-dark:focus, a.text-dark:hover {
 .banner-homepage {
   height: 100vh;
   background-color: #f2f2f2ee;
-  background-image: url("http://www.vela.hk/law/html/HKS-consulting/assets/img/banner1.png");
+  background-image: url("/assets/img/img-banner-index.png");
   background-size: cover;
   margin: auto;
   display: -webkit-box;
@@ -10803,18 +10812,39 @@ a.text-dark:focus, a.text-dark:hover {
 
 .banner-homepage-content {
   position: relative;
-  text-shadow: 0.1em 0.1em 0.2em #fefefe;
+  text-shadow: 0.1em 0.1em 0.2em #767676;
 }
 
-.services-box {
-  border: solid 1px #4B8ED1;
-  border-radius: 10px;
+.client-box {
+  border: solid 1px #fefefe;
+  border-radius: 20px;
   padding: 20px;
+  -webkit-box-shadow: 0.2em 0.2em 1.2em #adb5bd;
+          box-shadow: 0.2em 0.2em 1.2em #adb5bd;
+}
+
+.img-client {
+  width: 200px;
+  background-color: #fefefe;
+}
+
+.img-client img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.img-solution {
+  width: 500px;
+  background-color: #fefefe;
+}
+
+.img-solution img {
+  max-width: 100%;
 }
 
 .btn-primary {
-  background-color: #4B8ED1;
-  border-color: #4B8ED1;
+  background-color: #6C838B;
+  border-color: #6C838B;
   padding: 8px 50px 8px 50px;
 }
 
@@ -10829,9 +10859,53 @@ a.text-dark:focus, a.text-dark:hover {
   color: #fefefe;
 }
 
-.btn-pricing a :hover, .btn-pricing a :active {
+.btn-pricing a :hover,
+.btn-pricing a :active {
   background-color: #455FA5;
   border-color: #455FA5;
+}
+
+.btn-navRight {
+  color: #1E646E;
+}
+
+.btn-navRight a {
+  color: #1E646E;
+}
+
+.btn-navRight a:hover, .btn-navRight a :active, .btn-navRight a :focus {
+  border-color: #0F525C;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #6C838B;
+  border: solid 0.75px #adb5bd;
+  border-radius: 50px;
+}
+
+.nav-pills .nav-link {
+  color: #767676;
+  border-radius: 50px;
+  border: solid 0.75px #adb5bd;
+  padding: 10px 30px;
+}
+
+.nav-item {
+  padding: 6px;
+}
+
+.nav-item a {
+  color: #414141;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  border-radius: 50px;
+  padding: 10px 30px;
 }
 
 .card-primary-box {

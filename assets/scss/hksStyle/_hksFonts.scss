@@ -19,10 +19,10 @@
 //Roboto:100>thin,300>light,400>regilar,500>medium
 //font-family: 'Roboto', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
-//Yeseva One
-//font-family: 'Yeseva One', cursive;
-@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
-//
+//VELA
+//PT Mono
+//font-family: 'PT Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 //typography
 $font: 16px 18px 20px 24px 30px 40px 48px;
 
@@ -36,7 +36,7 @@ $font: 16px 18px 20px 24px 30px 40px 48px;
   @return (floor($font-size/ 10px) +1) *10px;
 }
 
-$leading: 21px 27px 30px 36px 48px 60px 84px;
+$leading: 20px 27px 30px 36px 48px 60px 84px;
 
 @mixin leading($index:1) {
   line-height: nth($leading, $index);
@@ -258,31 +258,27 @@ $leading: 21px 27px 30px 36px 48px 60px 84px;
 .text-shadow-black{
   text-shadow: black 0.1em 0.1em 0.2em;
 }
-//Yeseva One
-.text-y-1-4-1{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+//PT Mono
+.text-m-1-4-1{
+  font-family: 'PT Mono', monospace;
   @include font(1);
   @include leading(1);
   @media screen and (max-width: 500px) {
     font-size: 16px;
   }
 }
-.text-y-2-4-2{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-2-4-2{
+  font-family: 'PT Mono', monospace;
   @include font(2);
   @include leading(2);
 }
-.text-y-3-4-3{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-3-4-3{
+  font-family: 'PT Mono', monospace;
   @include font(3);
   @include leading(3);
 }
-.text-y-4-4-4{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-4-4-4{
+  font-family: 'PT Mono', monospace;
   @include font(4);
   @include leading(4);
   @media screen and (max-width: 500px) {
@@ -290,21 +286,18 @@ $leading: 21px 27px 30px 36px 48px 60px 84px;
     @include leading(2);
   }
 }
-.text-y-5-4-5{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-5-4-5{
+  font-family: 'PT Mono', monospace;
   @include font(5);
   @include leading(5);
 }
-.text-y-6-4-6{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-6-4-6{
+  font-family: 'PT Mono', monospace;
   @include font(6);
   @include leading(6);
 }
-.text-y-7-4-7{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 400;
+.text-m-7-4-7{
+  font-family: 'PT Mono', monospace;
   @include font(7);
   @include leading(7);
 }
