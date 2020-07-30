@@ -66,3 +66,20 @@
   border-radius: 50px;
   padding: 10px 30px;
 }
+.btn-job{
+	//width: 100px;
+	//height: 40px;
+	border-radius: 50px;
+	padding: 10px 20px;
+	&:hover,:active, :focus {
+		//background-color:$vela-green-600;
+		border-color:$vela-green-600;
+		text-decoration: none;
+		background-color: $vela-green-600;
+		border-radius: 50px;
+	}
+	@media screen and (max-width: 500px) {
+		border-radius: 40px;
+		font-size: 10px;
+	}
+}

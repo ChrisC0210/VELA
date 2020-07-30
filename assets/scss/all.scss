@@ -1,5 +1,8 @@
 //plugin
 @import "../scss/plugin/boostrap";
+@import "../scss/plugin/slick";
+@import "../scss/plugin/slick-theme";
+
 //HKS Style
 @import "../scss/hksStyle/hksColor";
 @import "../scss/hksStyle/hksFonts";
@@ -7,6 +10,7 @@
 @import "../scss/hksStyle/hksBtn";
 @import "../scss/hksStyle/hksCard";
 @import "../scss/hksStyle/hksImg";
+@import "../scss/hksStyle/velaSlick";
 //element
 //@import "../scss/elment/parallax";
 .breadcrumb{
